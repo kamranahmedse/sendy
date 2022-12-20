@@ -20,8 +20,7 @@ For more information and related downloads for Sendy Server and other products, 
 * Visit the URL of your project to complete the setup.
 * You're done!
 
-## Thanks
-Adapted from [bubbajames-docker/sendy](https://github.com/bubbajames-docker/sendy)
-
 ## License
+> Adapted from [bubbajames-docker/sendy](https://github.com/bubbajames-docker/sendy)
+
 MIT &copy; [Kamran Ahmed](https://github.com/kamranahmedse)
