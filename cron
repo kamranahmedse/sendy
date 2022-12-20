@@ -1,0 +1,11 @@
+# Scheduled campaigns
+*/5 * * * * curl -i http://localhost/scheduled.php > /dev/null 2>&1
+
+# Autoresponders
+*/15 * * * * curl -i http://localhost/autoresponders.php > /dev/null 2>&1
+
+# Imports the CSV file for subscribers
+*/1 * * * * curl -i http://localhost/import-csv.php > /dev/null 2>&1
+
+# Updates segments (Uncomment if needed)
+# 0 0 * * * curl -i http://localhost/update-segments.php > /dev/null 2>&1
